@@ -10,13 +10,12 @@ public class BaseClass {
 
 
     @Test
-    public WebDriver setUpDriver() {
+    public void setUpDriver() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\ayesh\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
         driver.navigate().to("https://www.tarladalal.com/");
         driver.manage().window().maximize();
-        return driver;
     }
 }
