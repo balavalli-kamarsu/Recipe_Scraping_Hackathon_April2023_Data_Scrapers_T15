@@ -14,7 +14,7 @@ import java.util.Map;
 public class ReadExcel {
     public Map<String, String> readUserDetails () throws IOException {
         //creating an object named path where providing the path of excel sheet to get properties of the file
-        String path = System.getProperty("D:\\AYESH\\SDET\\Recipe Scraping Hackathon April 2023\\scrapinghackathondocuments\\IngredientsAndComorbidities-ScrapperHackathon");
+        String path = System.getProperty("C:\\Users\\valli\\Git\\Recipe_Scraping_Hackathon_April2023_Data_Scrapers_T15\\src\\test\\resources\\IngredientsAndComorbidities-ScrapperHackathon.xlsx");
 // creating the object excelFile of the file with earlier created object(path) as a parameter
         File excelFile = new File(path);
         // FileInputStream obtains input bytes from a file in a file system here excelFile and stores in the object fileInputStream
