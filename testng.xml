@@ -2,11 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test thread-count="5" name="Test">
-
-
         <classes>
-            <class name="com.tarladala.recipe.scraping.base.BaseClass"/>
-
+            <class name="com.tarladalal.recipe.scraping.base.BaseClass"/>
+            <class name="com.tarladalal.recipe.scraping.diabetes.ComorbidityDiabetes"/>
+            <class name="com.tarladalal.recipe.scraping.hypertension.ComorbidityHypertension"/>
+            <class name="com.tarladalal.recipe.scraping.hypothyroidism.ComorbidityHypothyroidism"/>
+            <class name="com.tarladalal.recipe.scraping.pcos.PCOS"/>
+            <class name="com.tarladalal.recipe.scraping.allergy.Allergy"/>
         </classes>
     </test>
 </suite>
